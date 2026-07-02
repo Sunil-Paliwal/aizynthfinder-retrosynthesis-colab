@@ -7,6 +7,7 @@ Paper link: https://doi.org/10.1186/s13321-020-00472-1
 ## Usage
 •	**Open in Colab:** https://colab.research.google.com/drive/1y8034lT2tTQkdwb7bgVTxOHlFGiZmwF9?usp=sharing
 •	**Setup:** Follow the instructions provided in the notebook cells to install the necessary environment, including rdkit, tensorflow, and networkx.
+
 •	**Analysis:** Input your target molecule's SMILES string to perform retrosynthetic analysis using the included policy and stock configurations.
 ## Attribution & Licensing
 •	**Article License:** The original article is licensed under a Creative Commons Attribution 4.0 International License.
