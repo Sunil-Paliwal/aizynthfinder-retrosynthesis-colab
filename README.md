@@ -3,6 +3,7 @@ This repository contains a Google Colab notebook designed to facilitate retrosyn
 > **Note:** This repository and the associated notebook are currently in active development for educational purposes. The code is provided as-is, and feedback or suggestions for improvement from the community are welcomed.
 ## Overview
 This work is based on the open-source software AiZynthFinder, as described in the paper: Genheden et al., J. Cheminform (2020) 12:70. The original software utilizes a Monte Carlo tree search and a neural network policy to recursively break down molecules into purchasable precursors.
+
 **Paper link:** https://doi.org/10.1186/s13321-020-00472-1
 ## Usage
 *	**Open in Colab:** https://colab.research.google.com/drive/1y8034lT2tTQkdwb7bgVTxOHlFGiZmwF9?usp=sharing
