@@ -12,6 +12,7 @@ Paper link: https://doi.org/10.1186/s13321-020-00472-1
 * **Article License:** The original article is licensed under a Creative Commons Attribution 4.0 International License.
 *	**Data Waiver:** The data from the original article is provided under the Creative Commons Public Domain Dedication waiver.
 *	**Software License:** The original AiZynthFinder software is distributed under the MIT License.
+  
 *Note: Modifications have been made to the original workflow to adapt it for the Google Colab environment.
 ## References
 Genheden, S., Thakkar, A., Chadimová, V. et al. AiZynthFinder: a fast, robust and flexible open-source software for retrosynthetic planning. J Cheminform 12, 70 (2020). https://doi.org/10.1186/s13321-020-00472-1
