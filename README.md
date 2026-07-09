@@ -4,6 +4,8 @@
 Department of Chemistry and Chemical Biology  
 Stevens Institute of Technology
 
+---
+
 This repository contains a Google Colab notebook designed to facilitate retrosynthetic planning using the AiZynthFinder architecture.
 > **Note:** This repository and the associated notebook are currently in active development for educational purposes. The code is provided as-is, and feedback or suggestions for improvement from the community are welcomed.
 
