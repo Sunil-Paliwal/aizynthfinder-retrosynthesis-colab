@@ -7,7 +7,9 @@ This work is based on the open-source software **AiZynthFinder**, as described i
 
 **Paper link:** [https://doi.org/10.1186/s13321-020-00472-1](https://doi.org/10.1186/s13321-020-00472-1)
 
-### Quick Start
+---
+
+### **Quick Start**
 
 To get started with the retrosynthesis workflow, follow these steps in order. 
 
@@ -28,11 +30,13 @@ To get started with the retrosynthesis workflow, follow these steps in order.
 
 > **Note:** You only need to run all three steps when you start for the first time. If the Colab session disconnects or is closed, you generally only need to re-run Cell #2 and Cell #3 to restore the environment and GUI.
 
-## Attribution & Licensing
+---
+
+### Attribution & Licensing
 * **Article License:** The original article is licensed under a Creative Commons Attribution 4.0 International License.
 *	**Data Waiver:** The data from the original article is provided under the Creative Commons Public Domain Dedication waiver.
 *	**Software License:** The original AiZynthFinder software is distributed under the MIT License.
   
 *Note: Modifications have been made to the original workflow to adapt it for the Google Colab environment.*
-## References
+### References
 Genheden, S., Thakkar, A., Chadimová, V. et al. AiZynthFinder: a fast, robust and flexible open-source software for retrosynthetic planning. J Cheminform 12, 70 (2020). https://doi.org/10.1186/s13321-020-00472-1
