@@ -18,10 +18,10 @@ This work is based on the open-source software **AiZynthFinder**, as described i
 
 ### **Quick Start**
 
-To get started with the retrosynthesis workflow, follow these steps in order. 
+To get started with the retrosynthesis workflow, follow these three steps (steps 1 through 3) in order. 
 
 #### 1. Preparation
-* First, click **"Sign in"** (top right) to log into your Google account.
+* First, ensure you are logged into your Google account..
 * Open the notebook in Google Colab by clicking the link below:
 
   **[AiZynthFinder Notebook in Google Colab](https://colab.research.google.com/drive/1y8034lT2tTQkdwb7bgVTxOHlFGiZmwF9?usp=sharing)**
