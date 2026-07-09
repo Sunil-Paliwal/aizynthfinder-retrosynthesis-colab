@@ -1,6 +1,6 @@
 # AiZynthFinder-Based Retrosynthesis Workflow
 
-**Instructor:** Dr. Sunil Paliwal  
+**Dr. Sunil Paliwal**  
 Department of Chemistry and Chemical Biology  
 Stevens Institute of Technology
 
