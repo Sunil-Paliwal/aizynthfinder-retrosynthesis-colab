@@ -25,9 +25,9 @@ To get started with the retrosynthesis workflow, follow these three steps (steps
 
 - First, ensure you are logged into your Google account.
 
-- Open the notebook in Google Colab by clicking the link below:
+- Open the notebook in Google Colab by clicking the link below. This opens the latest version directly from this GitHub repository:
 
-    **[AiZynthFinder Notebook in Google Colab](https://colab.research.google.com/drive/1y8034lT2tTQkdwb7bgVTxOHlFGiZmwF9?usp=sharing)**
+    **[AiZynthFinder Notebook in Google Colab](https://colab.research.google.com/github/Sunil-Paliwal/aizynthfinder-retrosynthesis-colab/blob/main/AiZynthFinder_Retrosynthesis_Colab.ipynb)**
 
 - Then, click **"Copy to Drive"** to save your own editable copy of the notebook.
 
