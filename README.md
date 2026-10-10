@@ -49,6 +49,29 @@ To get started with the retrosynthesis workflow, follow these three steps (steps
 
 Colab's default Python version is now newer than the versions supported by AiZynthFinder (Python 3.10 to 3.12). On the default Colab Python, a plain `pip install aizynthfinder` fails with *"No matching distribution found for aizynthfinder"*. The notebook therefore installs AiZynthFinder into its own Python 3.11 environment (created with [`uv`](https://github.com/astral-sh/uv)) and runs each search there. The input box and the results are displayed in the notebook itself. This also makes the notebook resilient to future changes of Colab's default Python. The AiZynthFinder version is pinned to 4.4.1 (the latest release at the time of writing) so that results stay reproducible; to use a newer release, edit the version number in Cell #1.
 
+### Troubleshooting: installation or import failures
+
+Cell 1 installs AiZynthFinder by resolving its dependencies against PyPI,
+so it normally picks up current bug and security fixes. Occasionally an
+unpinned transitive dependency releases a breaking version and Cell 1
+starts failing — for example, pyarrow 26 dropped NumPy 1.x support while
+AiZynthFinder still pins `numpy<2`, which produced:
+
+    ImportError: pyarrow requires NumPy 2.0 or newer, found 1.26.4
+
+If that happens, install from the pinned set in `requirements-lock.txt`
+instead. Replace the `uv pip install` line in Cell 1 with:
+
+    !uv pip install -q --python /content/azf_env/bin/python -r requirements-lock.txt
+
+You will need the file available in the Colab session first:
+
+    !wget -q https://raw.githubusercontent.com/Sunil-Paliwal/aizynthfinder-retrosynthesis-colab/main/requirements-lock.txt
+
+These versions were verified on Python 3.11 (linux x86_64) to install,
+import and render route images successfully.
+
+
 ---
 
 ### Attribution & Licensing
