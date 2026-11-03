@@ -34,7 +34,7 @@ To get started with the retrosynthesis workflow, follow these three steps (steps
 #### 2. Setup & Run Cells
 
 - **Cell #1**: Run this first by clicking the ▶ (play) button. It creates a separate Python 3.11 environment and installs `aizynthfinder` (pinned to version 4.4.1) and its dependencies into it.
-- **Cell #2**: Run this second by clicking the ▶ (play) button to download the public USPTO models and ZINC stock collection.
+- **Cell #2**: Run this second by clicking the ▶ (play) button to download the public USPTO models and ZINC stock collection. This takes a few minutes (about 3 in our tests), so wait until it prints `Data download and configuration complete.` before running Cell #3.
 - **Cell #3**: Run this last by clicking the ▶ (play) button to launch the interactive search interface.
 
 #### 3. Perform Analysis
