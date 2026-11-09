@@ -1,5 +1,21 @@
 # AiZynthFinder-Based Retrosynthesis Workflow
 
+> ## This notebook has moved
+>
+> It now lives as **module 04** of
+> **[AI-Enabled Drug Discovery and Synthesis](https://github.com/Sunil-Paliwal/ai-enabled-drug-discovery-and-synthesis)**, alongside three other
+> modules: molecular interactions, structure validation and alerts, and
+> bioisosteric replacement.
+>
+> **New home:** [`04_aizynthfinder_retrosynthesis`](https://github.com/Sunil-Paliwal/ai-enabled-drug-discovery-and-synthesis/tree/main/04_aizynthfinder_retrosynthesis)
+>
+> This repository is archived and no longer updated. The copy here is kept only
+> so existing links do not break — please use the link above.
+
+---
+
+
+
 **Dr. Sunil Paliwal**  
 Department of Chemistry and Chemical Biology  
 Stevens Institute of Technology
